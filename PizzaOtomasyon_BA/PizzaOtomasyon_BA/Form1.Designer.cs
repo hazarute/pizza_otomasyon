@@ -83,6 +83,7 @@
             this.btnSiparisiOnayla.TabIndex = 41;
             this.btnSiparisiOnayla.Text = "Siparişi Onayla";
             this.btnSiparisiOnayla.UseVisualStyleBackColor = true;
+            this.btnSiparisiOnayla.Click += new System.EventHandler(this.btnSiparisiOnayla_Click);
             // 
             // btnSepeteEkle
             // 
@@ -92,6 +93,7 @@
             this.btnSepeteEkle.TabIndex = 40;
             this.btnSepeteEkle.Text = "Sepete Ekle";
             this.btnSepeteEkle.UseVisualStyleBackColor = true;
+            this.btnSepeteEkle.Click += new System.EventHandler(this.btnSepeteEkle_Click);
             // 
             // btnHesapla
             // 
@@ -101,6 +103,7 @@
             this.btnHesapla.TabIndex = 39;
             this.btnHesapla.Text = "Hesapla";
             this.btnHesapla.UseVisualStyleBackColor = true;
+            this.btnHesapla.Click += new System.EventHandler(this.btnHesapla_Click);
             // 
             // lbSiparis
             // 
@@ -373,6 +376,7 @@
             this.Controls.Add(this.cmbEbatlar);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.gbMalzemeler.ResumeLayout(false);
             this.gbMalzemeler.PerformLayout();
             this.ResumeLayout(false);
